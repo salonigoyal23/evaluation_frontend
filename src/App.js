@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <div>
+      <h1>Main Page</h1>
         <Routes>
           <Route path="signup" Component={Signup} />
           <Route path="login" Component={Login} />
